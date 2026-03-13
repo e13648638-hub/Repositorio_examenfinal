@@ -15,6 +15,7 @@ public static void main(String[] args) {
         String cliente;
         double compra1, compra2, compra3;
         double tc, pc;
+        double desc;
         Scanner lectura = new Scanner(System.in);
         System.out.print("Ingrese nombre del cliente: ");
         cliente = lectura.nextLine();
@@ -26,8 +27,10 @@ public static void main(String[] args) {
         compra3 = lectura.nextDouble();
         tc = compra1 + compra2 + compra3;
         pc = tc / 3;
+        desc = tc * 0.10;
         System.out.println("Cliente: " + cliente);
         System.out.println("Total compras: " + tc);
         System.out.println("Promedio compras: " + pc);
+        System.out.println("Descuento aplicado: " + desc);
     }    
 }
