@@ -32,5 +32,6 @@ public static void main(String[] args) {
         System.out.println("Total compras: " + tc);
         System.out.println("Promedio compras: " + pc);
         System.out.println("Descuento aplicado: " + desc);
+        
     }    
 }
